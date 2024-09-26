@@ -12,3 +12,52 @@ This project aims to build a machine learning model to detect fraudulent credit 
 - `requirements.txt`: Lists all Python dependencies.
 - `README.md`: Project documentation and instructions.
 - `model/`: Directory where trained models are saved.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/suraj21331/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
+   ```
+
+2. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Install Jupyter Notebook (optional, for exploring notebooks):
+   ```bash
+   pip install notebook
+   ```
+
+
+## Dataset
+The dataset used for this project is available in the `creditcard.csv/` directory. It contains anonymized credit card transactions with fraud labels.
+
+
+## Execution
+
+1. Run the preprocessing script to clean and prepare the data:
+   ```bash
+   python scripts/preprocess.py
+   ```
+
+2. Run the model training script:
+   ```bash
+   python scripts/train_model.py
+   ```
+
+3. Evaluate the model performance:
+   ```bash
+   python scripts/evaluate_model.py
+   ```
+
+Alternatively, you can explore the project in Jupyter notebooks by running:
+```bash
+jupyter notebook
+
+
+
+
+
