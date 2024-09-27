@@ -58,6 +58,15 @@ Alternatively, you can explore the project in Jupyter notebooks by running:
 jupyter notebook
 
 
+## Business Impact
+
+Detecting fraudulent transactions is critical for minimizing financial losses and maintaining customer trust. This machine learning solution offers the following benefits to the company:
+
+- **Proactive Fraud Detection**: By identifying fraudulent transactions in real-time, the model helps the company prevent fraudulent activities before they lead to losses.
+- **Cost Efficiency**: Automating fraud detection reduces the reliance on manual reviews, saving operational costs.
+- **Scalability**: The pipeline is built with scalability in mind, allowing it to handle large volumes of transaction data as the company grows.
+- **Improved Customer Experience**: Reducing the number of false positives ensures legitimate transactions are processed smoothly, enhancing customer satisfaction.
+
 
 
 
