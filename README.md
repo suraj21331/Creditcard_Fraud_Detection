@@ -53,10 +53,6 @@ The dataset used for this project is available in the `creditcard.csv/` director
    python scripts/evaluate_model.py
    ```
 
-Alternatively, you can explore the project in Jupyter notebooks by running:
-```bash
-jupyter notebook
-
 
 ## Business Impact
 
